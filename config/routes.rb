@@ -1,4 +1,10 @@
 SunspotBlog::Application.routes.draw do
+  get "posts/index"
+
+  get "posts/show"
+
+  get "posts/search"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
