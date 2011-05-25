@@ -8,6 +8,9 @@ class PostsController < ApplicationController
   end
 
   def search
+    @posts = Post.search do
+       keywords(params[:query])
+    end
   end
 
 end
