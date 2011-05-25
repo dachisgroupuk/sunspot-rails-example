@@ -4,4 +4,5 @@ SunspotBlog::Application.routes.draw do
       get 'search'
     end
   end
+  root :to => 'posts#index'
 end
