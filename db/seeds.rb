@@ -5,3 +5,4 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+Post.create({:title => "Hello world!", :body => "This is my first blog post"})
